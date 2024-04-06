@@ -7,8 +7,7 @@ const jsUser = {
     "roll number": "arya 123",
     lastLogin: ["M","W"]
 }
-
-
+//console.log(Object.entries(jsUser));
 // console.log(jsUser);
 // console.log(jsUser["roll number"]);
 // console.log(typeof jsUser["sym"]);
@@ -18,8 +17,8 @@ jsUser.greeting = function(){
 jsUser.greeting2= function(){
     console.log(`HELLO BIROO ${this.name} Your Email id is : ${this.email}`);
 }
-console.log(jsUser.greeting());
-console.log(jsUser.greeting2());
+// console.log(jsUser.greeting());
+// console.log(jsUser.greeting2());
 
 
 
@@ -46,4 +45,14 @@ const obj4 = { 3:"C",4:"D"};
 // const obj5 = {...obj1,...obj2,...obj4};
 // console.log(obj5==obj3);
 
-   
+
+const course = {
+    courseName : "js in hindi",
+    price : "999",
+    courseInstructor : "Aryan"
+}
+
+
+const {courseInstructor : arya} = course
+
+//console.log(arya);
