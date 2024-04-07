@@ -22,7 +22,7 @@ function calculateCarePrice(...num1){
 
 
 const user = {
-    userName : "Aryan",
+  //  userName : "Aryan",
     price : 100
 }
 
@@ -34,7 +34,101 @@ function handleObject(anyobject){
 const myArray = [200,300,400]
 function returnSecondValue(getArray){
     return getArray[1];
+}//console.log(returnSecondValue(myArray));
+
+
+ 
+
+if(true){
+    let a = 10
+    const b = 20
+    var c = 30
+    
 }
-  console.log(returnSecondValue(myArray));
+
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+function one(){
+   // const username = "Aryan"
+
+    function two(){
+        const website = "VS code"
+        console.log(username);
+    }
+   two()   
+}
+  
+const userA = {
+   // username : "Aryan",
+    price : 999,
+    welcomeMessage: function(){
+        console.log(`${this.username} , welcome to Website`);
+        console.log(this);
+
+    }
+};
+
+// userA.welcomeMessage();
+// userA.username = "agarwal"
+// userA.welcomeMessage();
+ 
+//function chai(){
+    // console.log(this);
+//}
+
+//chai()
+
+// const chae = function(){
+//     let useRname = "Aryan"
+//     console.log(this);
+// }
+// chae();
+
+// const chai = () => {
+//     let useRname = "Aryan"
+//     console.log(this);
+// }
+
+// chai()
+
+// const add2 = (num1,num2)  =>{
+//     return num1 +num2
+// }
+
+// const add2 = (num1,num2)  => num1 +num2
+
+// console.log(add2(3,4))
+
+
+//IMMEDIATELY INVOKED FUNCTION EXPRESSIONS(IIFE)
+
+// (function chai(){
+//     console.log(`DB CONNECTED`);
+// })();
+
+// ((name) => {
+//     console.log(`DB CONNECTED TWO BY ${name}`);
+// })('ARYAN')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
